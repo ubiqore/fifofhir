@@ -4,15 +4,9 @@ import ca.uhn.fhir.rest.api.server.IBundleProvider;
 import com.github.benmanes.caffeine.cache.Cache;
 import com.github.benmanes.caffeine.cache.Caffeine;
 import com.github.benmanes.caffeine.cache.RemovalCause;
-import com.google.common.collect.Lists;
-import com.sun.prism.impl.BaseResourceFactory;
-import org.apache.commons.lang3.Validate;
-import org.hl7.fhir.instance.model.api.IBaseResource;
-import org.hl7.fhir.instance.model.api.IPrimitiveType;
 
-import java.util.Date;
-import java.util.List;
-import java.util.ResourceBundle;
+import org.apache.commons.lang3.Validate;
+
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 
